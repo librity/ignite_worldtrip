@@ -1,34 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Rocket Seat Ignite - World Trip Landing Page
 
-## Getting Started
+<p align="center">
+  <img src=".github/home.png">
+</p>
 
-First, run the development server:
+## Table of Contents
+
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Usage](#usage)
+- [Docs](#docs)
+- [Resources](#resources)
+
+## About <a name = "about"></a>
+
+A beautiful landing page made with ReactJS, NextJS and Chakara UI.
+
+- [Figma](https://www.figma.com/file/8QAkMs3BddatXn2fFseyu4/Desafio-1-M%C3%B3dulo-4-ReactJS/duplicate)
+
+## Getting Started <a name = "getting_started"></a>
+
+### Prerequisites
+
+- `node >= 12.0.0`
+
+### Installation
+
+1. Clone this repo locally and install the required packages:
 
 ```bash
-npm run dev
-# or
-yarn dev
+$ git clone https://github.com/librity/ignite_worldtrip.git
+$ cd ignite_worldtrip
+$ yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Start a dev server:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+$ yarn dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+3. Open http://localhost:3000 on your web browser.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Usage <a name = "docs"></a>
 
-## Learn More
+## Docs <a name = "usage"></a>
 
-To learn more about Next.js, take a look at the following resources:
+- https://nextjs.org/docs/api-reference/create-next-app
+- https://unsplash.com/developers
+- https://chakra-ui.com/docs/getting-started
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Resources <a name = "resources"></a>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- https://javascript.plainenglish.io/setup-a-next-js-app-with-typescript-and-chakra-ui-f3a6c39dec48
+- https://www.visualcapitalist.com/the-100-most-popular-city-destinations/
+- https://bigseventravel.com/the-most-visited-cities-world-2019/
+- https://github.com/chakra-ui/chakra-ui/issues/200
