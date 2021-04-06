@@ -1,7 +1,7 @@
 import React from 'react'
 
 import ContentContainer from '../ContentContainer'
-import TravelType from '../TravelType'
+import TravelType from './TravelType'
 
 const TravelTypes = () => {
   return (

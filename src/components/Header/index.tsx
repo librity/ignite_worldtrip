@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { Flex, Icon } from '@chakra-ui/react'
 import { RiArrowDropLeftLine } from 'react-icons/ri'
 
-import Logo from '../Logo'
+import Logo from './Logo'
 import { useRouter } from 'next/router'
 
 export default function Header() {
@@ -23,7 +23,7 @@ export default function Header() {
           <Icon
             as={RiArrowDropLeftLine}
             fontSize={['25px', '36px']}
-            color="gray.200"
+            color="gray.600"
             position="absolute"
             top={['15px', '30px']}
             left="20px"

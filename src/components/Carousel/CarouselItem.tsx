@@ -24,6 +24,7 @@ export default function CarouselItem({
         cursor="pointer"
         w="100%"
         h={['250px', '450px']}
+        borderRadius="50px"
       >
         <Flex
           justifyContent="center"

@@ -4,6 +4,377 @@ const continents = [
     name: 'Asia',
     carouselTitle: 'The greatest landmass.',
     carouselBackground: 'images/asia.jpg',
+
+    bannerImage: '/images/asia/banner.png',
+    about:
+      'Asia is the largest continent, both in area and in population.' +
+      " It covers one third of the Earth's surface " +
+      "and houses almost three fifths of the world's population." +
+      ' Asia borders Africa and Europe to the west, ' +
+      'Oceania to the south-east and North America to the north-east.',
+    countries: 50,
+    languages: 2300,
+    cities100: 51,
+
+    cities: [
+      {
+        id: 'hong_kong',
+        name: 'Hong Kong',
+        image: '/images/asia/hong_kong.png',
+        country: 'China',
+        code: 'cn',
+      },
+      {
+        id: 'bangkok',
+        name: 'Bangkok',
+        image: '/images/asia/bangkok.png',
+        country: 'Thailand',
+        code: 'th',
+      },
+      {
+        id: 'macau',
+        name: 'Macau',
+        image: '/images/asia/macau.png',
+        country: 'China',
+        code: 'cn',
+      },
+      {
+        id: 'singapore',
+        name: 'Singapore',
+        image: '/images/asia/singapore.png',
+        country: 'Singapore',
+        code: 'sg',
+      },
+      {
+        id: 'dubai',
+        name: 'Dubai',
+        image: '/images/asia/dubai.png',
+        country: 'United Arab Emirates',
+        code: 'ae',
+      },
+      {
+        id: 'kuala_lumpur',
+        name: 'Kuala Lumpur',
+        image: '/images/asia/kuala_lumpur.png',
+        country: 'Malasia',
+        code: 'my',
+      },
+      {
+        id: 'istanbul',
+        name: 'Istanbul',
+        image: '/images/asia/istanbul.png',
+        country: 'Turkey',
+        code: 'tr',
+      },
+      {
+        id: 'delhi',
+        name: 'Deli',
+        image: '/images/asia/delhi.png',
+        country: 'India',
+        code: 'in',
+      },
+      {
+        id: 'antalya',
+        name: 'Antalya',
+        image: '/images/asia/antalya.png',
+        country: 'Turkey',
+        code: 'tr',
+      },
+      {
+        id: 'shenzhen',
+        name: 'Shenzhen',
+        image: '/images/asia/shenzhen.png',
+        country: 'China',
+        code: 'cn',
+      },
+      {
+        id: 'mumbai',
+        name: 'Bombaim',
+        image: '/images/asia/mumbai.png',
+        country: 'India',
+        code: 'in',
+      },
+      {
+        id: 'phuket',
+        name: 'Phuket',
+        image: '/images/asia/phuket.png',
+        country: 'Thailand',
+        code: 'th',
+      },
+      {
+        id: 'tokyo',
+        name: 'Tokyo',
+        image: '/images/asia/tokyo.png',
+        country: 'Japan',
+        code: 'jp',
+      },
+      {
+        id: 'pattaya',
+        name: 'Pattaya',
+        image: '/images/asia/pattaya.png',
+        country: 'Thailand',
+        code: 'th',
+      },
+      {
+        id: 'taipei',
+        name: 'Taipei',
+        image: '/images/asia/taipei.png',
+        country: 'Taiwan',
+        code: 'tw',
+      },
+      {
+        id: 'mecca',
+        name: 'Mecca',
+        image: '/images/asia/mecca.png',
+        country: 'Saudi Arabia',
+        code: 'sa',
+      },
+      {
+        id: 'guangzhou',
+        name: 'Guangzhou',
+        image: '/images/asia/guangzhou.png',
+        country: 'China',
+        code: 'cn',
+      },
+      {
+        id: 'medina',
+        name: 'Medina',
+        image: '/images/asia/medina.png',
+        country: 'Saudi Arabia',
+        code: 'sa',
+      },
+      {
+        id: 'seoul',
+        name: 'Seoul',
+        image: '/images/asia/seoul.png',
+        country: 'South Korea',
+        code: 'kr',
+      },
+      {
+        id: 'agra',
+        name: 'Agra',
+        image: '/images/asia/agra.png',
+        country: 'India',
+        code: 'in',
+      },
+      {
+        id: 'osaka',
+        name: 'Osaka',
+        image: '/images/asia/osaka.png',
+        country: 'Japan',
+        code: 'jp',
+      },
+      {
+        id: 'shanghai',
+        name: 'Shanghai',
+        image: '/images/asia/shanghai.png',
+        country: 'China',
+        code: 'cn',
+      },
+      {
+        id: 'ho_chi_minh',
+        name: 'Ho Chi Minh City',
+        image: '/images/asia/ho_chi_minh.png',
+        country: 'Vietnam',
+        code: 'vn',
+      },
+      {
+        id: 'denpasar',
+        name: 'Denpasar',
+        image: '/images/asia/denpasar.png',
+        country: 'Indonesia',
+        code: 'id',
+      },
+      {
+        id: 'chennai',
+        name: 'Chennai',
+        image: '/images/asia/chennai.png',
+        country: 'India',
+        code: 'in',
+      },
+      {
+        id: 'johor_bahru',
+        name: 'Johor Bahru',
+        image: '/images/asia/johor_bahru.png',
+        country: 'Malasia',
+        code: 'my',
+      },
+      {
+        id: 'jaipur',
+        name: 'Jaipur',
+        image: '/images/asia/jaipur.png',
+        country: 'India',
+        code: 'in',
+      },
+      {
+        id: 'riyadh',
+        name: 'Riyadh',
+        image: '/images/asia/riyadh.png',
+        country: 'Saudi Arabia',
+        code: 'sa',
+      },
+      {
+        id: 'ha_noi',
+        name: 'Hanói',
+        image: '/images/asia/ha_noi.png',
+        country: 'Vietnam',
+        code: 'vn',
+      },
+      {
+        id: 'jakarta',
+        name: 'Jacarta',
+        image: '/images/asia/jakarta.png',
+        country: 'Indonesia',
+        code: 'id',
+      },
+      {
+        id: 'ha_long',
+        name: 'Ha Long',
+        image: '/images/asia/ha_long.png',
+        country: 'Vietnam',
+        code: 'vn',
+      },
+      {
+        id: 'beijing',
+        name: 'Beijing',
+        image: '/images/asia/beijing.png',
+        country: 'China',
+        code: 'cn',
+      },
+      {
+        id: 'jerusalem',
+        name: 'Jerusalem',
+        image: '/images/asia/jerusalem.png',
+        country: 'Israel',
+        code: 'il',
+      },
+      {
+        id: 'dammam',
+        name: 'Dammam',
+        image: '/images/asia/dammam.png',
+        country: 'Saudi Arabia',
+        code: 'sa',
+      },
+      {
+        id: 'penang_island',
+        name: 'Penang Island',
+        image: '/images/asia/penang_island.png',
+        country: 'Malasia',
+        code: 'my',
+      },
+      {
+        id: 'kyoto',
+        name: 'Kyoto',
+        image: '/images/asia/kyoto.png',
+        country: 'Japan',
+        code: 'jp',
+      },
+      {
+        id: 'zhuhai',
+        name: 'Zhuhai',
+        image: '/images/asia/zhuhai.png',
+        country: 'China',
+        code: 'cn',
+      },
+      {
+        id: 'chiang_mai',
+        name: 'Chiang Mai',
+        image: '/images/asia/chiang_mai.png',
+        country: 'Thailand',
+        code: 'th',
+      },
+      {
+        id: 'kolkata',
+        name: 'Kolkata',
+        image: '/images/asia/kolkata.png',
+        country: 'India',
+        code: 'in',
+      },
+      {
+        id: 'cebu',
+        name: 'Cebu',
+        image: '/images/asia/cebu.png',
+        country: 'Philippines',
+        code: 'ph',
+      },
+      {
+        id: 'tel_aviv',
+        name: 'Tel Aviv',
+        image: '/images/asia/tel_aviv.png',
+        country: 'Israel',
+        code: 'il',
+      },
+      {
+        id: 'guilin',
+        name: 'Guilin',
+        image: '/images/asia/guilin.png',
+        country: 'China',
+        code: 'cn',
+      },
+      {
+        id: 'mugla',
+        name: 'Mugla',
+        image: '/images/asia/mugla.png',
+        country: 'Turkey',
+        code: 'tr',
+      },
+      {
+        id: 'chiba',
+        name: 'Chiba',
+        image: '/images/asia/chiba.png',
+        country: 'Japan',
+        code: 'jp',
+      },
+      {
+        id: 'da_nang',
+        name: 'Da Nang',
+        image: '/images/asia/da_nang.png',
+        country: 'Vietnam',
+        code: 'vn',
+      },
+      {
+        id: 'batam',
+        name: 'Batam',
+        image: '/images/asia/batam.png',
+        country: 'Indonesia',
+        code: 'id',
+      },
+      {
+        id: 'fukuoka',
+        name: 'Fukuoka',
+        image: '/images/asia/fukuoka.png',
+        country: 'Japan',
+        code: 'jp',
+      },
+      {
+        id: 'abu_dhabi',
+        name: 'Abu Dhabi',
+        image: '/images/asia/abu_dhabi.png',
+        country: 'United Arab Emirates',
+        code: 'ae',
+      },
+      {
+        id: 'jeju',
+        name: 'Jeju',
+        image: '/images/asia/jeju.png',
+        country: 'South Korea',
+        code: 'kr',
+      },
+      {
+        id: 'krabi',
+        name: 'Krabi',
+        image: '/images/asia/krabi.png',
+        country: 'Thailand',
+        code: 'th',
+      },
+      {
+        id: 'bangalore',
+        name: 'Bangalore',
+        image: '/images/asia/bangalore.png',
+        country: 'India',
+        code: 'in',
+      },
+    ],
   },
 
   {
@@ -11,6 +382,224 @@ const continents = [
     name: 'Europe',
     carouselTitle: 'The old world.',
     carouselBackground: 'images/europe.jpg',
+
+    bannerImage: '/images/europe/banner.png',
+    about:
+      'Europe is a continent located entirely in the Northern Hemisphere ' +
+      'and mostly in the Eastern Hemisphere. ' +
+      'Being part of the same landmass, Europe is generally divided from Asia ' +
+      'by the the Ural Mountains, the Ural River, ' +
+      'the Caspian Sea and the Black Sea. ' +
+      "Europe covers only 2% of the Earth's surface, making it the second smallest continent.",
+    countries: 50,
+    languages: 60,
+    cities100: 29,
+
+    cities: [
+      {
+        id: 'london',
+        name: 'London',
+        image: '/images/europe/london.png',
+        country: 'England',
+        code: 'gb',
+      },
+      {
+        id: 'paris',
+        name: 'Paris',
+        image: '/images/europe/paris.png',
+        country: 'France',
+        code: 'fr',
+      },
+      {
+        id: 'roma',
+        name: 'Rome',
+        image: '/images/europe/roma.png',
+        country: 'Italy',
+        code: 'it',
+      },
+      {
+        id: 'praga',
+        name: 'Prague',
+        image: '/images/europe/praga.png',
+        country: 'Czech Republic',
+        code: 'cz',
+      },
+      {
+        id: 'amsterdam',
+        name: 'Amsterdam',
+        image: '/images/europe/amsterdam.png',
+        country: 'The Netherlands',
+        code: 'nl',
+      },
+      {
+        id: 'barcelona',
+        name: 'Barcelona',
+        image: '/images/europe/barcelona.png',
+        country: 'Spain',
+        code: 'es',
+      },
+      {
+        id: 'milan',
+        name: 'Milan',
+        image: '/images/europe/milan.png',
+        country: 'Italy',
+        code: 'it',
+      },
+      {
+        id: 'vienna',
+        name: 'Vienna',
+        image: '/images/europe/vienna.png',
+        country: 'Austria',
+        code: 'at',
+      },
+      {
+        id: 'berlin',
+        name: 'Berlin',
+        image: '/images/europe/berlin.png',
+        country: 'Germany',
+        code: 'de',
+      },
+      {
+        id: 'athens',
+        name: 'Athens',
+        image: '/images/europe/athens.png',
+        country: 'Greece',
+        code: 'gr',
+      },
+      {
+        id: 'moscow',
+        name: 'Moscow',
+        image: '/images/europe/moscow.png',
+        country: 'Russia',
+        code: 'ru',
+      },
+      {
+        id: 'venice',
+        name: 'Venice',
+        image: '/images/europe/venice.png',
+        country: 'Italy',
+        code: 'it',
+      },
+      {
+        id: 'madrid',
+        name: 'Madri',
+        image: '/images/europe/madrid.png',
+        country: 'Spain',
+        code: 'es',
+      },
+      {
+        id: 'dublin',
+        name: 'Dublin',
+        image: '/images/europe/dublin.png',
+        country: 'Ireland',
+        code: 'ie',
+      },
+      {
+        id: 'florence',
+        name: 'Florence',
+        image: '/images/europe/florence.png',
+        country: 'Italy',
+        code: 'it',
+      },
+      {
+        id: 'munich',
+        name: 'Munich',
+        image: '/images/europe/munich.png',
+        country: 'Germany',
+        code: 'de',
+      },
+      {
+        id: 'saint_petersburg',
+        name: 'Petrograd',
+        image: '/images/europe/saint_petersburg.png',
+        country: 'Russia',
+        code: 'ru',
+      },
+      {
+        id: 'brussels',
+        name: 'Brussels',
+        image: '/images/europe/brussels.png',
+        country: 'Belgium',
+        code: 'be',
+      },
+      {
+        id: 'budapest',
+        name: 'Budapest',
+        image: '/images/europe/budapest.png',
+        country: 'Hungary',
+        code: 'hu',
+      },
+      {
+        id: 'lisbon',
+        name: 'Lisbon',
+        image: '/images/europe/lisbon.png',
+        country: 'Portugal',
+        code: 'pt',
+      },
+      {
+        id: 'heraklion',
+        name: 'Heraklion',
+        image: '/images/europe/heraklion.png',
+        country: 'Greece',
+        code: 'gr',
+      },
+      {
+        id: 'copenhagen',
+        name: 'Copenhagen',
+        image: '/images/europe/copenhagen.png',
+        country: 'Denmark',
+        code: 'dk',
+      },
+      {
+        id: 'krakow',
+        name: 'Krakow',
+        image: '/images/europe/krakow.png',
+        country: 'Poland',
+        code: 'pl',
+      },
+      {
+        id: 'warsaw',
+        name: 'Warsaw',
+        image: '/images/europe/warsaw.png',
+        country: 'Poland',
+        code: 'pl',
+      },
+      {
+        id: 'frankfurt',
+        name: 'Frankfurt',
+        image: '/images/europe/frankfurt.png',
+        country: 'Germany',
+        code: 'de',
+      },
+      {
+        id: 'stockholm',
+        name: 'Stockholm',
+        image: '/images/europe/stockholm.png',
+        country: 'Sweden',
+        code: 'se',
+      },
+      {
+        id: 'nice',
+        name: 'Nice',
+        image: '/images/europe/nice.png',
+        country: 'France',
+        code: 'fr',
+      },
+      {
+        id: 'porto',
+        name: 'Porto',
+        image: '/images/europe/porto.png',
+        country: 'Portugal',
+        code: 'pt',
+      },
+      {
+        id: 'rhodes',
+        name: 'Rodes',
+        image: '/images/europe/rhodes.png',
+        country: 'Greece',
+        code: 'gr',
+      },
+    ],
   },
 
   {
@@ -18,6 +607,112 @@ const continents = [
     name: 'Americas',
     carouselTitle: 'The new world.',
     carouselBackground: 'images/americas.jpg',
+
+    bannerImage: '/images/americas/banner.png',
+    about:
+      'The Americas is a landmass comprising the totality of North and South America. ' +
+      "The Americas make up most of the land in Earth's Western Hemisphere and comprise the New World. " +
+      "Along with their associated islands, the Americas cover 8% of Earth's total surface area " +
+      'and 28.4% of its land area.' +
+      'The Americas are home to nearly a billion inhabitants, ' +
+      'two-thirds of whom reside in the United States, Brazil, and Mexico.',
+    countries: 35,
+    languages: 8,
+    cities100: 13,
+
+    cities: [
+      {
+        id: 'new_york',
+        name: 'New York',
+        image: '/images/americas/new_york.png',
+        country: 'United States',
+        code: 'us',
+      },
+      {
+        id: 'miami',
+        name: 'Miami',
+        image: '/images/americas/miami.png',
+        country: 'United States',
+        code: 'us',
+      },
+      {
+        id: 'los_angeles',
+        name: 'Los Angeles',
+        image: '/images/americas/los_angeles.png',
+        country: 'United States',
+        code: 'us',
+      },
+      {
+        id: 'las_vegas',
+        name: 'Las Vegas',
+        image: '/images/americas/las_vegas.png',
+        country: 'United States',
+        code: 'us',
+      },
+      {
+        id: 'cancun',
+        name: 'Cancun',
+        image: '/images/americas/cancun.png',
+        country: 'Mexico',
+        code: 'us',
+      },
+      {
+        id: 'orlando',
+        name: 'Orlando',
+        image: '/images/americas/orlando.png',
+        country: 'United States',
+        code: 'us',
+      },
+      {
+        id: 'toronto',
+        name: 'Toronto',
+        image: '/images/americas/toronto.png',
+        country: 'Canada',
+        code: 'ca',
+      },
+      {
+        id: 'vancouver',
+        name: 'Vancouver',
+        image: '/images/americas/vancouver.png',
+        country: 'Canada',
+        code: 'ca',
+      },
+      {
+        id: 'san_francisco',
+        name: 'San Francisco',
+        image: '/images/americas/san_francisco.png',
+        country: 'United States',
+        code: 'us',
+      },
+      {
+        id: 'honolulu',
+        name: 'Honolulu',
+        image: '/images/americas/honolulu.png',
+        country: 'United States',
+        code: 'us',
+      },
+      {
+        id: 'buenos_aires',
+        name: 'Buenos Aires',
+        image: '/images/americas/buenos_aires.png',
+        country: 'Argentina',
+        code: 'ar',
+      },
+      {
+        id: 'lima',
+        name: 'Lima',
+        image: '/images/americas/lima.png',
+        country: 'Peru',
+        code: 'pe',
+      },
+      {
+        id: 'rio_de_janeiro',
+        name: 'Rio de Janeiro',
+        image: '/images/americas/rio_de_janeiro.png',
+        country: 'Brazil',
+        code: 'br',
+      },
+    ],
   },
 
   {
@@ -25,6 +720,50 @@ const continents = [
     name: 'Africa',
     carouselTitle: 'The cradle of humanity.',
     carouselBackground: 'images/africa.jpg',
+
+    bannerImage: '/images/africa/banner.png',
+    about:
+      "Africa is the world's second-largest and second-most populous continent, " +
+      'after Asia in both cases. At about 11.7 million square miles ' +
+      "including adjacent islands, it covers 6% of Earth's total surface area and 20% of its land area. " +
+      "With 1.3 billion people as of 2018, it accounts for about 16% of the world's human population. " +
+      'Early human civilizations, such as Ancient Egypt and Phoenicia emerged in North Africa. ' +
+      'Following a subsequent long and complex history of civilizations, migration and trade, ' +
+      'Africa hosts a large diversity of ethnicities, cultures and languages.',
+    countries: 54,
+    languages: 3000,
+    cities100: 4,
+
+    cities: [
+      {
+        id: 'cairo',
+        name: 'Cairo',
+        image: '/images/africa/cairo.png',
+        country: 'Egypt',
+        code: 'eg',
+      },
+      {
+        id: 'johannesburg',
+        name: 'Johannesburg',
+        image: '/images/africa/johannesburg.png',
+        country: 'South Africa',
+        code: 'za',
+      },
+      {
+        id: 'marrakech',
+        name: 'Marrakech',
+        image: '/images/africa/marrakech.png',
+        country: 'Morocco',
+        code: 'ma',
+      },
+      {
+        id: 'hurghada',
+        name: 'Hurghada',
+        image: '/images/africa/hurghada.png',
+        country: 'Egypt',
+        code: 'eg',
+      },
+    ],
   },
 
   {
@@ -32,6 +771,44 @@ const continents = [
     name: 'Oceania',
     carouselTitle: 'The new new world.',
     carouselBackground: 'images/oceania.jpg',
+
+    bannerImage: '/images/oceania/banner.png',
+    about:
+      'Oceania is a geographic region that includes Australasia, Melanesia, ' +
+      'Micronesia and Polynesia. Spanning the Eastern and Western Hemispheres, ' +
+      'Oceania has a land area of 3,291,903 square miles and a population of over 41 million. ' +
+      'When compared to continents, the region of Oceania is the smallest in land area ' +
+      'and the second smallest in population after Antarctica. ' +
+      'The rock art of Aboriginal Australians is the longest continuously practiced artistic tradition in the world. ' +
+      'Puncak Jaya in Papua is the highest peak in Oceania at 4,884 metres. ' +
+      "Tourism is a large source of income for Oceanian's countries.",
+    countries: 16,
+    languages: 18,
+    cities100: 3,
+
+    cities: [
+      {
+        id: 'sydney',
+        name: 'Sydney',
+        image: '/images/oceania/sydney.png',
+        country: 'Australia',
+        code: 'au',
+      },
+      {
+        id: 'melbourne',
+        name: 'Melbourne',
+        image: '/images/oceania/melbourne.png',
+        country: 'Australia',
+        code: 'au',
+      },
+      {
+        id: 'auckland',
+        name: 'Auckland',
+        image: '/images/oceania/auckland.png',
+        country: 'New Zealand',
+        code: 'nz',
+      },
+    ],
   },
 ]
 

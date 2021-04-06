@@ -2,7 +2,7 @@ import { Flex } from '@chakra-ui/react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import SwiperCore, { Navigation, Pagination } from 'swiper'
 
-import CarouselItem from '../CarouselItem'
+import CarouselItem from './CarouselItem'
 
 SwiperCore.use([Navigation, Pagination])
 
