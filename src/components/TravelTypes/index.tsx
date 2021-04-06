@@ -7,6 +7,7 @@ const TravelTypes = () => {
   return (
     <ContentContainer
       mt="6rem"
+      mb="6rem"
       flexWrap={['wrap', 'wrap', 'nowrap']}
       justify={['center', 'center', 'space-between']}
       align="center"

@@ -44,6 +44,8 @@ $ yarn dev
 
 ## Usage <a name = "docs"></a>
 
+You can select a continent from the Hero, and browse its most-visited cities.
+
 ## Docs <a name = "usage"></a>
 
 - https://nextjs.org/docs/api-reference/create-next-app
