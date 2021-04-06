@@ -1,6 +1,7 @@
+import { useState, useCallback } from 'react'
 import Head from 'next/head'
 import { GetStaticProps, GetStaticPaths } from 'next'
-import { Flex } from '@chakra-ui/react'
+import { Flex, useDisclosure } from '@chakra-ui/react'
 
 import continents from '../../data/continents'
 
@@ -8,6 +9,7 @@ import Header from '../../components/Header'
 import Banner from '../../components/Continent/Banner'
 import Detail from '../../components/Continent/Description'
 import Cities from '../../components/Continent/Cities'
+import CityModal from '../../components/Continent/CityModal'
 
 interface City {
   id: string
@@ -32,7 +34,23 @@ interface ContinentProps {
   }
 }
 
+interface ModalInfo {
+  city: string
+  query: string
+}
+
 export default function Continent({ continent }: ContinentProps) {
+  const [modalInfo, setModalInfo] = useState<ModalInfo>({
+    city: '',
+    query: '',
+  })
+  const { isOpen, onOpen, onClose } = useDisclosure()
+
+  const openModal = useCallback(({ city, query }: ModalInfo) => {
+    setModalInfo({ city, query })
+    onOpen()
+  }, [])
+
   return (
     <>
       <Head>
@@ -51,8 +69,9 @@ export default function Continent({ continent }: ContinentProps) {
           languages={continent.languages}
           cities100={continent.cities100}
         />
-        <Cities cities={continent.cities} onClickCard={() => {}} />
+        <Cities cities={continent.cities} onClickCard={openModal} />
       </Flex>
+      <CityModal modalInfo={modalInfo} isOpen={isOpen} onClose={onClose} />
     </>
   )
 }

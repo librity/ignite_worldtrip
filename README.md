@@ -4,6 +4,18 @@
   <img src=".github/home.png">
 </p>
 
+<p align="center">
+  <img src=".github/continent.png">
+</p>
+
+<p align="center">
+  <img src=".github/city_modal.png">
+</p>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bc891506-9c3d-4c15-bc0c-a8b5280ca871/deploy-status)](https://app.netlify.com/sites/iworldtrip/deploys)
+
+- Production: https://iworldtrip.netlify.app/
+
 ## Table of Contents
 
 - [About](#about)
