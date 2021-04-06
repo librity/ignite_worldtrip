@@ -3,6 +3,7 @@ import Head from 'next/head'
 
 import Header from '../components/Header'
 import Banner from '../components/Banner'
+import TravelTypes from '../components/TravelTypes'
 import SwiperDivider from '../components/SwiperDivider'
 
 export default function Home() {
@@ -19,6 +20,8 @@ export default function Home() {
         <Header />
 
         <Banner />
+
+        <TravelTypes />
 
         <SwiperDivider />
       </Flex>

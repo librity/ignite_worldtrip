@@ -1,7 +1,7 @@
 import React from 'react'
 import { Flex, Image, Text, Box } from '@chakra-ui/react'
 
-import { ContentContainer } from '../ContentContainer'
+import ContentContainer from '../ContentContainer'
 
 const Banner = () => {
   return (

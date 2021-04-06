@@ -5,13 +5,12 @@ interface ContentContainerProps extends FlexProps {
   children: ReactNode
 }
 
-export const ContentContainer = ({
-  children,
-  ...rest
-}: ContentContainerProps) => {
+const ContentContainer = ({ children, ...rest }: ContentContainerProps) => {
   return (
     <Flex w="90%" maxWidth="1240px" align="center" {...rest}>
       {children}
     </Flex>
   )
 }
+
+export default ContentContainer
