@@ -1,7 +1,8 @@
-import { Divider, Flex, Heading } from '@chakra-ui/react'
+import { Flex } from '@chakra-ui/react'
 import Head from 'next/head'
 
 import Header from '../components/Header'
+import Banner from '../components/Banner'
 import SwiperDivider from '../components/SwiperDivider'
 
 export default function Home() {
@@ -14,13 +15,10 @@ export default function Home() {
           content="Browse the World's most-visited cities and plan your next trip abroad!"
         ></meta>
       </Head>
-      <Flex
-        w="100%"
-        alignItems="center"
-        direction="column"
-        justifyContent="center"
-      >
+      <Flex width="100%" flexDir="column" bg="gray.50" align="center">
         <Header />
+
+        <Banner />
 
         <SwiperDivider />
       </Flex>
